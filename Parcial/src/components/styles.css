@@ -1,0 +1,41 @@
+.Info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width:80%;
+}
+.Film{
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.infoCharacters{
+  display: flex;
+  width:300px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+
+}
+
+.characters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid black;
+  width:80%;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width:20%;
+}
